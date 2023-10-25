@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Container">
+        <form id="response">
+            <div class="Title"><b>Resistration Form</b></div>
+            <label for="name">Name:</label>
+            <div class="Input-Box">
+                <input type="Text" placeholder="Enter Your Name (both first and last)" id="name" autocomplete="off">
+            </div>
+            <label for="username">Username:</label>
+            <div class="Input box">
+                <input type="text" placeholder="Enter your username" id="username" autocomplete="off">
+            </div>
+            <label for="password">Password:</label>
+            <div class="Input box">
+                <input type="password" placeholder="Enter your password" id="password" autocomplete="off">
+            </div>
+            <label for="confirm">Confirm Password:</label>
+            <div class="Input box">
+                <input type="password" placeholder="Confirm your Password" id="confirm" autocomplete="off">
+            </div>
+            <label for="email">Email:</label>
+            <div class="Input box">
+                <input type="text" placeholder="Enter your Email" id="email" autocomplete="off">
+            </div>
+            <label for="phone">Phone number:</label>
+            <div class="Input box">
+                <input type="number" placeholder="Enter your number" id="phone" autocomplete="off">
+            </div>
+            <div class="Gender">
+                <span><b>Gender:</b></span><br>
+                <span id="male">Male</span>
+                <input type="radio" id="male" name="gender">
+                <span id="female">Female</span>
+                <input type="radio" id="female" name="gender">
+                <span id="None">Prefer not to say</span>
+                <input type="radio" id="None" name="gender">
+            </div>
+            <label for="country">Country</label>
+            <div class="country">
+                <select name="mycountry" id="country">
+                    <option value="nep">Nepal</option>
+                    <option value="ind">India</option>
+                    <option value="US">USA</option>
+                </select>
+            </div>
+            <div>
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+        <footer>&copy; Bimal Itani</footer>
+
+
+        <script src="form.js"></script>
+</body>
+
+</html>
